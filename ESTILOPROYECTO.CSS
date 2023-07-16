@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* TERMINA EL RESET*/ 
+
+
+/*---- border-box---*/
+
+*{box-sizing: border-box;}
+
+/*---- border-box---*/
+
+a{
+    color: #f5f0ed;
+    text-decoration: none;
+}
+a:hover{
+    color: #f5f0ed;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #f5f0ed;
+    text-decoration: none;
+}
+
+h2{color: #f5f0ed;
+    font-size: 44px;
+    font-weight: bold;
+}
+h3{color: #d03b40;
+font-size: 44px;
+font-weight: bold;
+margin-bottom: 16px;
+}
+
+h4{color: #f5f0ed;
+font-size:24px;
+font-weight: bold;}
+
+h5{color: #241d1b;
+font-size:24px;
+font-weight: bold;
+margin-bottom: 5px;
+margin-left: 22px;}
+
+li{color: white;
+font-size: 16px;
+font-weight: bold;
+margin-left: 20px;}
+
+.parrafo1{color: white;
+font-size: 16px;
+margin-top: 60px;}
+.parrafo2{color: #f5f0ed;font-size: 16px;}
+.parrafo3{color: #d03b40;font-size: 16px;margin-bottom: 40px;margin-top: 60px;}
+.parrafo4{color: white;font-size: 16px;margin-bottom: 40px;margin-top: 60px;}
+.parrafo5{color: #241d1b;font-size: 16px; margin-bottom: 30px;
+margin-left: 22px;}
+.parrafo6{color: #d03b40;font-size: 16px;}
+.parrafo7{color: #f5f0ed;font-size: 16px;}
+.linea{color: white;
+font-size: 44px;
+margin-left: 45px;
+margin-bottom: 10px;}
+
+.productos{border-color: white;
+border: solid;
+padding: 10px;}
+
+.iconopan{margin-left: 200px;
+margin-top: 10px;
+margin-bottom: 10px;}
+.iconotarta{margin-left: 200px;
+margin-top: 10px;
+margin-bottom: 10px;}
+.iconocup{margin-left: 200px;
+margin-top: 10px;
+margin-bottom: 10px;}
+.iconotrigo{margin-left: 200px;
+margin-top: 10px;
+margin-bottom: 10px;}
+.mail{font-weight: bold;}
+.google{font-weight: bold;
+color:#d03b40;}
+/*-----EMPEZAMOS------*/
+
+body{ font-family: 'Open Sans', sans-serif;
+
+}
+
+h1{display: none;}
+
+.contenedor1{
+    background-image: url(PROYECTO/Proyecto/imagenes/Fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    }
+
+.contenedor2{
+    background-color: #d03b40;
+    padding: 10px;
+    
+
+}
+.contenedor3{
+    background-color: #ded6c0;
+    padding: 10px;
+    
+}
+
+.contenedor4{
+    background-image: url(PROYECTO/Proyecto/imagenes/Fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.contenedor5{
+    background-color: #f5f0ed;
+    background-position: center;
+    padding: 10px;
+    
+}
+.contenedor55{
+    background-color: #f5f0ed;
+    background-position: center;
+    padding: 10px;
+}
+.contenedor6{
+    background-color: #d03b40;
+    padding: 10px;
+    
+}
+.contenedor7{
+    background-color: #ded6c0;
+    padding: 10px;
+    
+}
+
+.logo{position: absolute;
+top: 10px; left: 20px;}
+
+.bloque1{margin-top: 100px;
+margin-left: 22px;
+margin-right: 1px;
+    margin-bottom: 130px;
+text-align: center;
+position: relative;}
+
+.bloque2{margin-top: 50px;
+margin-left: 22px;
+margin-right: 50px;
+margin-bottom: 119px;
+text-align: center;
+    position: relative;
+}
+
+.bloque3{margin-top: 50px;
+margin-left: 22px;
+margin-right: 50px;
+margin-bottom: 75px;
+text-align: center;
+    position: relative;
+}
+
+.bloque4{margin-top: 150px;
+margin-left: 22px;
+margin-right: 1px;
+    margin-bottom: 150px;
+text-align: center;
+position: relative;}
+
+.bloque6{margin-top: 50px;
+margin-left: 22px;
+margin-right: 50px;
+    margin-bottom: 75px;
+text-align: center;
+position: relative;}
+
+.bloque7{margin-top: 50px;
+margin-left: 22px;
+margin-right: 50px;
+    margin-bottom: 75px;
+text-align: center;
+position: relative;}
+
+/*-------------------QUERY---------------*/
+
+@media screen and (min-width:550px){
+    
+    .menu{
+        position: absolute; top: 10px; right: -1px;
+        text-align: center
+    
+    }
+    
+    .menu1{
+        display: none;
+    }
+    
+    .menu:hover > .menu1{
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width:850px){
+   
+        .menu{
+      display: hidden;
+        float: right;
+    
+    }
+    
+    .menuu{display: none;}
+    
+         .contenedor2{width: 50%;  
+           
+            float: right;
+            
+            
+            }
+        
+        .contenedor3{width: 50%;
+        float: right;
+           
+           
+      }
+    
+    .contenedor4{display: inline-block;
+        width: 100%;
+    }
+    
+             .cuadro1{width: 50%;  
+          float: right;
+            transition: none;
+         
+             
+            }
+        
+        .cuadro2{width: 50%;
+        float: right;
+            transition: none;
+          
+            
+      }
+  
+    .cuadro3{width: 50%;
+        float: right;
+            transition: none;
+          
+            
+      }
+    
+    .contenedor7{width: 50%;  
+          float: right;
+            transition: none;
+           
+             
+            }
+    
+    .contenedor6{width: 50%;  
+          float: right;
+            transition: none;
+          
+             
+            }
+    .menu:hover > .menu1{
+        display: none;
+    
+}
+}
